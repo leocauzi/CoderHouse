@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Quicksand:wght@300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html,body {
+    width: 100%;
+    height: 100vh;
+  }
+
+  #wrapper {
+    display: grid;
+    grid-template-areas: 
+    "miHeader"
+    "miMain"
+    "miFooter"
+    ;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+
+  }
+  
+  header {
+    grid-area: "miHeader";
+  }
+
+  main {
+    grid-area: "miMain";
+  }
+
+  footer {
+    grid-area: "miFooter";
+  }
+  
+  header img {
+    background-image: center;
+    height: auto;
+    margin: auto;
+    width: 100%;
+    position: absolute;
+  }
+
+  header nav {
+    text-align: center;
+  }
+
+  header > nav > ul > li {
+    font-family: 'Bebas Neue';
+    display: inline;
+    font-size: 35px;
+    margin-right: 50px;
+    margin-left: 120px;
+    margin-bottom: 20px;
+    position: relative;
+  }
+
+  .ourbikes {
+    text-align: center;
+    font-family: 'Quicksand';
+    font-weight: 200;
+    font-size: 30px;
+    margin-top: 40px;
+  }
+
+  .img_bici1 {
+    text-align: center;
+  }
+
+  .enduro {
+    text-align: center;
+    font-family: 'Quicksand';
+    font-weight: 200;
+    font-size: 25px;
+  }
+
+  .endurop {
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    display: block;
+    font-size: 20px;
+    padding: 20px;
+    margin-left: 340px;
+    margin-right: 340px;
+  }
+
+  .rent {
+    text-align: center;
+    font-family: 'Quicksand';
+    font-weight: 200;
+    font-size: 25px;
+  }
+
+  .rentnow {
+    color: rgb(0, 0, 0); 
+    font-size: 15px; 
+    line-height: 15px; 
+    padding: 10px; 
+    font-family: Helvetica, sans-serif; 
+    font-weight: 700; 
+  }
+
+  .buttonrent {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .why {
+    background-color: #171717;
+    height: 340px;
+    width: auto;
+    text-align: center;
+  }
+
+  .whyrent {
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    color: white;
+    padding: 25px;
+    text-align: left;
+  }
+  
+  .biciwhy{
+    display: inline-block;
+    position: left;
+    margin: 10px 200px;
+  }
+
+  .regardwhy {
+    display: inline-block;
+    position: center;
+    margin: 10px 0px;
+  }
+  
+  .medicwhy {
+    display: inline-block;
+    text-align: right;
+    margin: 10px 200px;
+  }
+
+  .pwhy {
+    display: inline-block;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 60px;
+  }
+
+  article nav {
+    text-align: center;
+  }
+
+  article > nav > ul > li {
+      font-family: 'Helvetica';
+      display: inline;
+      font-size: 35px;
+      font-weight: bold;
+      position: relative;
+      margin-left: 130px;
+      margin-right: 85px;
+    }
+  
+  
+  #imgb {
+    display: inline-block;
+    margin: auto;
+    word-spacing: 60px;
+    margin-left: 120px;
+    position: relative;
+    margin-top: 50px;
+  }
+  
+  h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    margin-top: 50px;
+    margin-left: 30px;
+  }
+
+  .texto_de_aboutus {
+    margin-top: 20px;
+  } 
+
+  .texto_de_aboutus1 {
+    margin-top: 60px;
+    margin-bottom: -650px;
+  }
+
+  .persona_1 {
+    position: absolute;
+    left: 660px;
+    top: 600px;
+  }
+
+  .persona_2 {
+    position: relative;
+    margin-left: 860px;
+  }
+
+  .contact {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    padding: 30px;
+    bottom: 100px;
+    margin-top: -250px;
+  }
+
+  .button {
+    padding: 10px;
+  }
+
+  .comments {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .title_video {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+    margin-left: 450px;
+  }
+
+  footer {
+    font-family: Helvetica, sans-serif;
+    background: #171717;
+    color: #789;
+    text-align: center;
+    padding: 25px 0;
+  }
