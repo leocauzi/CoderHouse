@@ -21,6 +21,7 @@ body {
 }
 
 header {
+  position: relative;
   grid-area: miHeader;
 }
 
@@ -33,32 +34,26 @@ footer {
 }
 
 header img {
-  background-image: center;
+  width: 100%;
   height: auto;
   margin: auto;
-  width: 100%;
-  position: absolute;
 }
 
 header nav {
   text-align: center;
 }
 
-header > nav > ul > li {
-  font-family: "Bebas Neue";
-  display: inline;
-  font-size: 35px;
-  margin-right: 50px;
-  margin-left: 120px;
-  margin-bottom: 20px;
-  position: relative;
-}
-
 .nav_top {
-  margin-top: 330px;
+  position: absolute;
+  bottom: 4px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
 }
 
-.nav_link {
+.nav_top-link {
+  font-family: "Bebas Neue";
+  font-size: 35px;
   color: rgb(255, 255, 255);
   text-decoration: none;
 }
