@@ -23,6 +23,7 @@
   
   header {
     grid-area: "miHeader";
+    position: relative;
   }
 
   main {
@@ -34,25 +35,28 @@
   }
   
   header img {
-    background-image: center;
+    width: 100%;
     height: auto;
     margin: auto;
-    width: 100%;
-    position: absolute;
   }
 
   header nav {
     text-align: center;
   }
 
-  header > nav > ul > li {
-    font-family: 'Bebas Neue';
-    display: inline;
+  .nav_top {
+    position: absolute;
+    bottom: 4px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .nav_top-link {
+    font-family: "Bebas Neue";
     font-size: 35px;
-    margin-right: 50px;
-    margin-left: 120px;
-    margin-bottom: 20px;
-    position: relative;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
   }
 
   .ourbikes {
@@ -155,21 +159,21 @@
   }
 
   article > nav > ul > li {
-      font-family: 'Helvetica';
-      display: inline;
-      font-size: 35px;
-      font-weight: bold;
-      position: relative;
-      margin-left: 20px;
-      margin-right: -20px;
-    }
+    font-family: 'Helvetica';
+    display: inline;
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: -20px;
+    z-index: 74;
+  }
 
-    .placesb {
-      text-align: center;
-      margin-left: 250px;
-      margin-right: 190px;
-      position: relative;
-    }
+  .placesb {
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 190px;
+    position: relative;
+  }
   
   
   #imgb {
@@ -202,48 +206,6 @@
     color: rgb(0, 255, 30)
   }
   
-  h2 {
-    font-family: Arial, Helvetica, sans-serif;
-    float: left;
-    margin-top: 50px;
-    margin-left: 30px;
-  }
-
-  .texto_de_aboutus {
-    margin-top: 20px;
-  } 
-
-  .texto_de_aboutus1 {
-    margin-top: 60px;
-    margin-bottom: -650px;
-  }
-
-  .persona_1 {
-    position: absolute;
-    left: 660px;
-    top: 600px;
-  }
-
-  .persona_2 {
-    position: relative;
-    margin-left: 860px;
-  }
-
-  .contact {
-    font-family: Arial, Helvetica, sans-serif;
-    position: relative;
-    padding: 30px;
-    bottom: 100px;
-    margin-top: -250px;
-  }
-
-  .button {
-    padding: 10px;
-  }
-
-  .comments {
-    font-family: Arial, Helvetica, sans-serif;
-  }
 
   .title_video {
     text-align: center;
