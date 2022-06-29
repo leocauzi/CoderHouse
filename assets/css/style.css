@@ -20,6 +20,13 @@ body {
   grid-template-rows: auto;
 }
 
+@media screen and (max-width: 1024px) {
+  .img-bici1 {
+    min-width: 550px;
+
+  }
+ }
+
 header {
   position: relative;
   grid-area: miHeader;
@@ -58,8 +65,8 @@ header img {
   position: absolute;
   bottom: 4px;
   width: 100%;
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
 }
 
 .nav_top-link {
@@ -77,8 +84,13 @@ header img {
   margin-top: 40px;
 }
 
-.img-bici1 {
+.img-bici_container {
   text-align: center;
+}
+
+.img-bici1 {
+  min-width: 720px;
+  max-width: 60%;
 }
 
 .enduro {
@@ -128,7 +140,7 @@ header img {
 
 .why_rent {
   font-family: Helvetica, sans-serif;
-  font-weight: lighter;
+  font-weight: bold;
   font-size: 25px;
   color: white;
   padding: 25px;
