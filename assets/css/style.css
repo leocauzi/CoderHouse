@@ -106,8 +106,8 @@ header img {
   display: block;
   font-size: 20px;
   padding: 20px;
-  margin-left: 340px;
-  margin-right: 340px;
+  padding-left: 150px;
+  padding-right: 150px;
 }
 
 .rent {
@@ -147,33 +147,24 @@ header img {
   text-align: left;
 }
 
-.bici_why {
-  display: inline-block;
-  position: left;
-  margin: 10px 200px;
-}
-
-.regard_why {
-  display: inline-block;
-  position: center;
-  margin: 10px 0px;
-}
-
-.medic_why {
-  display: inline-block;
-  text-align: right;
-  margin: 10px 200px;
+.pic_why {
+  bottom: 4px;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-items: center;
 }
 
 .why_img-title {
-  display: inline-block;
   font-family: Helvetica, sans-serif;
   font-weight: bold;
   color: white;
   font-size: 20px;
-  text-align: center;
-  margin-left: 150px;
-  margin-right: 60px;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  position: relative;
 }
 
 article nav {
@@ -198,7 +189,7 @@ article > nav > ul > li {
 }
 
 #img_buttons-container {
-  display: inline-block;
+  display: grid;
   margin: auto;
   word-spacing: 60px;
   margin-left: 120px;
