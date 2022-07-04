@@ -195,7 +195,7 @@ header nav {
 .img_buttons-section {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  margin-top: 30px;
+  margin-top: 40px;
 }
 
 .nav_bottom {
@@ -205,6 +205,8 @@ header nav {
 .review-container {
   text-align: center;
   padding: 40px;
+  border-top: 1px solid #171717;
+  margin-top: 30px;
 }
 
 .review-title {
