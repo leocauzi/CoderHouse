@@ -122,9 +122,9 @@ header nav {
 
 .why {
   background-color: #171717;
-  height: 340px;
   width: auto;
   text-align: center;
+
 }
 
 .why_rent {
@@ -145,30 +145,45 @@ header nav {
   justify-items: center;
 }
 
-.why_img-title {
+.pic_why-title {
   font-family: Helvetica, sans-serif;
   font-weight: bold;
   color: white;
   font-size: 20px;
-  width: 100vw;
+  margin-top: 10px;
+}
+
+.pic_why-description {
+  font-family: Helvetica, sans-serif;
+  font-weight: normal;
+  color: white;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.img_buttons-container {
+  position: relative;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  position: relative;
+  justify-content: center;
+  justify-items: center;
 }
 
-article nav {
-  text-align: center;
+.img_buttons {
+  max-width: 260px;
+  height: auto;
 }
 
-article > nav > ul > li {
-  font-family: "Helvetica";
-  display: inline;
-  font-size: 35px;
+.img_text {
+  position: absolute;
+  top: 40%;
+  font-family: Helvetica, sans-serif;
   font-weight: bold;
-  position: relative;
-  margin-left: 20px;
-  margin-right: -20px;
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  text-decoration: none;
 }
+
 
 .places_button {
   text-align: center;
@@ -177,13 +192,10 @@ article > nav > ul > li {
   position: relative;
 }
 
-#img_buttons-container {
+.img_buttons-section {
   display: grid;
-  margin: auto;
-  word-spacing: 60px;
-  margin-left: 120px;
-  position: relative;
-  margin-top: 50px;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 30px;
 }
 
 .nav_bottom {
@@ -193,8 +205,6 @@ article > nav > ul > li {
 .review-container {
   text-align: center;
   padding: 40px;
-  display: inline-flex;
-  margin-left: 420px;
 }
 
 .review-title {
@@ -209,6 +219,7 @@ article > nav > ul > li {
 .star {
   font-size: 15px;
   color: rgb(0, 255, 30);
+  margin: 0 6px;
 }
 
 h2 {
@@ -262,9 +273,29 @@ h2 {
 }
 
 footer {
-  font-family: Helvetica, sans-serif;
   background: #171717;
-  color: rgb(255, 255, 255);
-  padding: 10px 0;
-  text-align: center;
 }
+
+.footer_section {
+ display: flex;
+ justify-content: space-between;
+ margin: 10px;
+ align-items: center;
+}
+
+.footer_img {
+  width: 50px;
+  height: auto;
+}
+
+.copyright {
+  font-family: Helvetica, sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+}
+
+.social {
+  color: rgb(255, 255, 255);
+}
+
+
