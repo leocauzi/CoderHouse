@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Quicksand:wght@300;400;500;600;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -25,7 +26,7 @@ body {
     min-width: 550px;
 
   }
- }
+}
 
 header {
   position: relative;
@@ -218,6 +219,7 @@ header nav {
   font-family: Helvetica, sans-serif;
   font-weight: lighter;
 }
+
 .star {
   font-size: 15px;
   color: rgb(0, 255, 30);
@@ -279,10 +281,10 @@ footer {
 }
 
 .footer_section {
- display: flex;
- justify-content: space-between;
- margin: 10px;
- align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  align-items: center;
 }
 
 .footer_img {
@@ -299,5 +301,3 @@ footer {
 .social {
   color: rgb(255, 255, 255);
 }
-
-
