@@ -96,7 +96,14 @@ header nav {
   font-family: "Quicksand";
   font-weight: 200;
   font-size: 30px;
-  margin-top: 40px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.flex-carousel {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 20px;
 }
 
 .img-bici_container {
@@ -104,7 +111,7 @@ header nav {
 }
 
 .img-bici1 {
-  min-width: 720px;
+  min-width: 420px;
   max-width: 60%;
 }
 
@@ -112,15 +119,15 @@ header nav {
   text-align: center;
   font-family: "Quicksand";
   font-weight: 200;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .enduro-text {
   font-family: Helvetica, sans-serif;
   text-align: center;
   display: block;
-  font-size: 20px;
-  padding: 20px;
+  font-size: 15px;
+  padding: 10px;
   padding-left: 160px;
   padding-right: 160px;
 }
@@ -129,14 +136,14 @@ header nav {
   text-align: center;
   font-family: "Quicksand";
   font-weight: 200;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .rent_button {
   color: rgb(0, 0, 0);
-  font-size: 15px;
+  font-size: 10px;
   line-height: 15px;
-  padding: 10px;
+  padding: 5px;
   font-family: Helvetica, sans-serif;
   font-weight: 700;
 }
