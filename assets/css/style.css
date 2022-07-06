@@ -47,8 +47,33 @@ header img {
   margin: auto;
 }
 
+
 header nav {
   text-align: center;
+}
+
+.top-flex {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.lenguaje-link {
+  font-family: "Bebas Neue";
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.bandera-en {
+  width: 26px;
+}
+
+.bandera-esp {
+  width: 26px;
+  height: 20px;
 }
 
 .nav_top {
@@ -96,8 +121,8 @@ header nav {
   display: block;
   font-size: 20px;
   padding: 20px;
-  padding-left: 150px;
-  padding-right: 150px;
+  padding-left: 160px;
+  padding-right: 160px;
 }
 
 .rent {
@@ -283,7 +308,7 @@ footer {
 .footer_section {
   display: flex;
   justify-content: space-between;
-  margin: 10px;
+  margin: 20px;
   align-items: center;
 }
 
@@ -300,4 +325,5 @@ footer {
 
 .social {
   color: rgb(255, 255, 255);
+  font-size: 19px;
 }
