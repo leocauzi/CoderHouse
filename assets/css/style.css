@@ -110,7 +110,7 @@ header nav {
 }
 
 .img-bici1 {
-  min-width: 420px;
+  height: 350px;
   max-width: 60%;
 }
 
@@ -121,7 +121,7 @@ header nav {
   font-size: 20px;
 }
 
-.enduro-text {
+.carousel-text {
   font-family: Helvetica, sans-serif;
   text-align: center;
   display: block;
@@ -333,3 +333,8 @@ footer {
   color: rgb(255, 255, 255);
   font-size: 19px;
 }
+
+.carousel-height {
+  height: 500px;
+}
+
