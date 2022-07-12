@@ -1,0 +1,213 @@
+<!-- En este codigo se encuentra ademas del index.html, el servicios.html-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MTB TRAVEL</title>
+  <link rel="shortcut icon" href="assets/img/favicon1.png">
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <script src="bootstrap/js/jquery.slim.min.js"></script>
+  <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/ab305a5ec3.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+  <div id="wrapper">
+    <header>
+      <!--class="linear-gradient"-->
+      <img src="assets/img/header1.png" alt="Foto de bicis en montaña" />
+      <section class="top-flex">
+        <nav>
+          <a class="lenguaje-link" href="es/index.html">EN</a>
+        </nav>
+        <img class="bandera-en" src="assets/img/granbretaña.png" alt="Gran Bretaña">
+      </section>
+      <nav class="nav_top">
+        <a class="nav_top-link" href="index.html">HOME</a>
+        <a class="nav_top-link" href="index.html">BIKES</a>
+        <a class="nav_top-link" href="pages/places.html">PLACES</a>
+        <a class="nav_top-link" href="pages/aboutus.html">ABOUT US</a>
+        <a class="nav_top-link" href="pages/aboutus.html">CONTACT</a>
+      </nav>
+    </header>
+    <main>
+      <h1 class="our_bikes">OUR BIKES</h1>
+      <!-- <section class="flex-carousel">
+        <section>
+          <div class="img-bici_container">
+            <a href="http://google.com">
+              <img class="img-bici1" src="assets/img/bici1.jpg" alt="Foto de bici de montaña" />
+            </a>
+          </div>
+        </section>
+        <h1 class="enduro">Enduro</h1>
+        <section>
+          <p class="enduro-text">
+            Efficient pedalling and fast technical descents. Enduro mountain bikes give you the best
+            of bothg worlds.
+          </p>
+        </section>
+        <h1 class="rent"> From: €30/day </h1>
+        <div class="rent_button-container">
+          <button class="rent_button"> RENT NOW</button>
+        </div>
+      </section> -->
+      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner carousel-height">
+          <!-- <div class="carousel-item active" data-bs-interval="10000">
+            <img src="assets/img/bici1.jpg" class="d-block w-100" alt="Imagen bici enduro">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Enduro</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div> -->
+          <section class="carousel-item active" data-bs-interval="2000" style="height: 100%; background-color: white;">
+            <div class="img-bici_container">
+              <a href="http://google.com">
+                <img class="img-bici1" src="assets/img/bici1.jpg" class="d-block w-100" alt="Enduro bike" />
+              </a>
+              <div class="carousel-caption d-none d-md-block carousel-bike-text">
+                <h5 class="enduro">Enduro</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+              </div>
+            </div>
+            <!--<section class="flex-carousel">
+              <section class="carousel-caption d-none d-md-block">
+                <h5 class="enduro">Enduro</h5>
+                <p class="carousel-text">
+                  Efficient pedalling and fast technical descents. Enduro mountain bikes give you the best
+                  of bothg worlds.
+                </p>
+              </section>
+              <h1 class="rent"> From: €30/day </h1>
+              <div class="rent_button-container">
+                <button class="rent_button"> RENT NOW</button>
+              </div>
+           </section>-->
+          </section>
+          <section class="carousel-item" data-bs-interval="2000" style="height: 100%;background-color: white;">
+            <div class="img-bici_container">
+              <a href="http://google.com">
+                <img class="img-bici1" src="assets/img/bici20.png" class="d-block w-100" alt="Road bike">
+              </a>
+              <div class="carousel-caption d-none d-md-block carousel-bike-text">
+                <h5 class="enduro">Road</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+              </div>
+            </div>
+            <!-- <h1 class="rent"> From: €35/day </h1>
+            <div class="rent_button-container">
+              <button class="rent_button"> RENT NOW</button>
+            </div> -->
+          </section>
+          <section class="carousel-item" data-bs-interval="2000" style="height: 100%;background-color: white;">
+            <div class="img-bici_container">
+              <a href="http://google.com">
+                <img class="img-bici1" src="assets/img/bici30.png" class="d-block w-100" alt="Downhill bike">
+              </a>
+              <div class="carousel-caption d-none d-md-block carousel-bike-text">
+                <h5 class="enduro">Downhill</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+              </div>
+            </div>
+            <!-- <h1 class="rent"> From: €40/day </h1>
+            <div class="rent_button-container">
+              <button class="rent_button"> RENT NOW</button>
+            </div>-->
+          </section>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <section class="why">
+        <div class="why_rent">WHY MTB TRAVEL?</div>
+        <div class="pic_why">
+          <div class="pic_why-block">
+            <img src="assets/img/why1.png" alt="bici why" width="150" height="auto" />
+            <h4 class="pic_why-title">GUIDE</h4>
+            <p class="pic_why-description">labore voluptatem est ullam earum</p>
+          </div>
+          <div class="pic_why-block">
+            <img src="assets/img/why2.png" alt="regard why" width="150" height="auto" />
+            <h4 class="pic_why-title">GOOD QUALITY</h4>
+            <p class="pic_why-description">labore voluptatem est ullam earum</p>
+          </div>
+          <div class="pic_why-block">
+            <img src="assets/img/why3.png" alt="medic why" width="150" height="auto" />
+            <h4 class="pic_why-title">MEDIC ATENTTION</h4>
+            <p class="pic_why-description">labore voluptatem est ullam earum</p>
+          </div>
+        </div>
+      </section>
+      <section class="img_buttons-section">
+        <div class="img_buttons-container">
+          <img class="img_buttons" src="assets/img/kidsbutton.png" alt="KIDS" />
+          <a class="img_text" href="http://google.com">KIDS</a>
+        </div>
+        <div class="img_buttons-container">
+          <img class="img_buttons" src="assets/img/placesbutton.png" alt="PLACES" />
+          <a class="img_text" href="pages/places.html">PLACES</a>
+        </div>
+        <div class="img_buttons-container">
+          <img class="img_buttons" src="assets/img/aboutusbutton.png" alt="ABOUTUS" />
+          <a class="img_text" href="pages/aboutus.html">ABOUT US</a>
+        </div>
+      </section>
+      <section class="review-container">
+        <span class="review-title">Excellent</span>
+        <span class="star">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </span>
+        <span class="review-amount">1.332 reviews on trip.com</span>
+      </section>
+    </main>
+    <footer>
+      <section class="footer_section">
+        <img class="footer_img" src="assets/img/footerlogo.png" alt="logo" />
+        <span class="copyright">Copyright &copy; - MTBtravel &reg;</span>
+        <div class="social">
+          <span>
+            <i class="fa-brands fa-facebook-square"></i>
+          </span>
+          <span>
+            <i class="fa-brands fa-twitter"></i>
+          </span>
+          <span>
+            <i class="fab fa-instagram"></i>
+          </span>
+        </div>
+      </section>
+    </footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
