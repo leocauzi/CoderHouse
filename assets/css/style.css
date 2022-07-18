@@ -2,9 +2,13 @@
 
 .navbar-nav .nav-link {
   padding-left: 15px;
-  border-bottom: 1px solid rgba(255,255,255,.5);
+  border-bottom: 1px solid rgba(255, 255, 255, .5);
   font-family: "Bebas Neue";
   font-size: 1.7rem;
+}
+
+.bg-dark {
+  background-color: #171717 !important;
 }
 
 .nav-link {
@@ -12,7 +16,7 @@
 }
 
 .idioma {
-  border-bottom: 0px solid rgba(255,255,255,.5);
+  border-bottom: 0px solid rgba(255, 255, 255, .5);
 }
 
 .navbar-brand {
@@ -20,10 +24,20 @@
 }
 
 .our-bikes {
-  font-family:"Quicksand";
+  font-family: "Quicksand";
   font-weight: 200;
   font-size: 20px;
   margin-top: 10px;
+}
+
+.img-bici12 {
+  height: auto;
+  width: 90%;
+}
+
+.img-bici13 {
+  height: auto;
+  width: 85%;
 }
 
 .img-bici1 {
@@ -35,10 +49,6 @@
   text-align: center;
 }
 
-.carousel-indicators {
-  margin-bottom: -7rem;
-}
-
 .carousel-caption {
   color: black;
 }
@@ -46,4 +56,62 @@
 .why {
   background-color: #171717;
   width: auto;
+}
+
+.enduro {
+  font-size: 1.25rem;
+}
+
+.enduro_text {
+  font-size: 0.75rem;
+}
+
+@media screen and (min-width: 768px) {
+  .enduro {
+    font-size: 1.75rem;
+  }
+
+  .enduro_text {
+    font-size: 1.25rem;
+  }
+}
+
+.card {
+  background-color: #fff0;
+  border: 0px;
+  color: white;
+  text-align: center;
+}
+
+.fa-solid {
+  font-size: 4rem;
+  margin-bottom: 0.7rem;
+}
+
+.why_rent {
+  color: white;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+.pic_why-title {
+  font-family: Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 1rem;
+  margin-bottom: .1rem;
+}
+
+.card-body {
+  padding: 0rem;
+  margin-bottom: 1rem;
+}
+
+.img-fluid {
+  max-width: 50%;
+}
+
+.container {
+  padding: 0px;
 }
