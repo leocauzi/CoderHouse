@@ -60,21 +60,28 @@
   margin-top: 10px;
 }
 
-.img-bici12 {
+.img-bici-enduro {
   height: auto;
   width: 80%;
 }
 
-.img-bici13 {
-  height: auto;
-  width: 75%;
-}
-
-.img-bici1 {
+.img-bici-road {
   height: auto;
   width: 70%;
 }
 
+.img-bici-down {
+  height: auto;
+  width: 75%;
+}
+
+.carousel-item {
+    transition: transform .6s ease-in-out;
+    transition-property: transform;
+    transition-duration: .6s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+}
 .img-bici_container {
   text-align: center;
 }
@@ -104,7 +111,9 @@
   }
 
   .enduro_text {
-    font-size: 1.25rem;
+    font-size: 1.30rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
   }
 
   .carousel-indicators {
@@ -118,6 +127,22 @@
   .our-bikes {
     font-size: 1.8rem;
   }
+
+  .img-bici-enduro {
+    height: auto;
+    width:70%;
+  }
+
+  .img-bici-road {
+    height: auto;
+    width: 62%;
+  }
+
+  .img-bici-down {
+    height: auto;
+    width: 66%;
+  }
+
 }
 
 .card {
@@ -126,6 +151,7 @@
   color: white;
   text-align: center;
 }
+
 
 .fa-solid {
   font-size: 4.5rem;
@@ -136,7 +162,7 @@
   color: white;
   font-family: Helvetica, sans-serif;
   font-weight: lighter;
-  padding: 1rem;
+  padding: 3rem;
   font-size: 1.6rem;
 }
 
@@ -145,6 +171,7 @@
   font-weight: normal;
   font-size: 1.2rem;
   margin-bottom: .1rem;
+  margin-top: .5rem;
 }
 
 .img-fluid {
@@ -160,7 +187,7 @@
   font-weight: normal;
   color: white;
   font-size: 1rem;
-  padding: 0;
+  padding: 1.5rem;
   margin-bottom: 2rem;
 }
 
