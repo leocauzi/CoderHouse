@@ -19,7 +19,19 @@
   width: 100%;
   height: auto;
   margin: auto;
+  position: relative;
 }
+
+.mtb-icon {
+  position: absolute;
+  top: 2rem;
+  width: 20%;
+}
+
+.navbar {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .nav-link {
   padding: 0;
 }
