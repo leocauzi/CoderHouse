@@ -1,6 +1,6 @@
 <!-- En este codigo esta la ubicacion.html-->
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
@@ -8,13 +8,182 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MTB TRAVEL</title>
   <link rel="shortcut icon" href="../assets/img/favicon1.png">
-  <link rel="stylesheet" href="../assets/css/style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+  <script src="../bootstrap/js/jquery.slim.min.js"></script>
+  <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="https://kit.fontawesome.com/ab305a5ec3.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../assets/css/style.css" />
+
 
 </head>
 
 <body>
-  <div id="wrapper">
+  <header>
+    <nav class="d-flex d-lg-none navbar navbar-dark bg-dark-leo">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+        data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html"><img src="../assets/img/LOGOmobile.png" alt="MTB Logo" class="logo"
+          width="80px" height="auto"></a>
+      <div class="collapse navbar-collapse" id="navbarColor01">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="../index.html">HOME <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">BIKES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="places.html">PLACES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutus.html">ABOUT US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutus.html">CONTACT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link idioma" href="../es/index.html">EN
+              <img src="../assets/img/granbretaña.png" alt="Gran Bretaña" width="25px" height="auto"></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="d-none d-lg-flex">
+      <img class="mtb-header" src="../assets/img/header100.png" alt="Foto de bicis en montaña" />
+    </div>
+    <div class="d-none d-lg-flex justify-content-center">
+      <img class="mtb-icon" src="../assets/img/headericon.png" alt="Foto de bicis en montaña" />
+    </div>
+    <nav class="d-none d-lg-flex mb-3">
+      <div class="navbar navbar-expand-lg col-lg-12 navbar-light bg-light-leo justify-content-center">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">BIKES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">PLACES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">ABOUT US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CONTACT</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-toggle="dropdown" aria-expanded="false">
+              <img class="lenguaje" src="../assets/img/granbretaña.png" alt="ingles" />
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="../es/index.html"> <img class="lenguaje-e" src="../assets/img/españa.webp"
+                  alt="español" />Español
+              </a>
+              <!-- <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a> -->
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+
+  </main>
+
+  <div>
+
+    <footer class="text-white text-center text-lg-start bg-dark-leo">
+      <div class="container p-4">
+        <div class="row mt-4">
+          <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-4">About company</h5>
+
+            <p>
+              We are a team of cyclists who once also wanted to rent high-quality bikes.
+            </p>
+
+            <p>
+              Now, we created <strong>MTB Travel</strong>, so that you can live an experience as real as possible, with
+              personalised attention and incredible landscapes around the south of Bayern.
+            </p>
+
+            <div class="mt-4">
+              <!-- Facebook -->
+              <a type="button" class="btn btn-floating btn-light btn-lg"><i class="fab fa-facebook-f"></i></a>
+              <!-- Dribbble -->
+              <a type="button" class="btn btn-floating btn-light btn-lg"><i class="fab fa-dribbble"></i></a>
+              <!-- Twitter -->
+              <a type="button" class="btn btn-floating btn-light btn-lg"><i class="fab fa-twitter"></i></a>
+              <!-- Google + -->
+              <a type="button" class="btn btn-floating btn-light btn-lg"><i class="fab fa-google-plus-g"></i></a>
+              <!-- Linkedin -->
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-4 pb-1">Search something</h5>
+
+            <div class="form-outline form-white mb-4">
+              <input type="text" id="formControlLg" class="form-control form-control-lg" />
+              <label class="form-label" for="formControlLg">Search</label>
+            </div>
+
+            <ul class="fa-ul" style="margin-left: 1.65em;">
+              <li class="mb-3">
+                <span class="fa-li"><i class="fas fa-home"></i></span><span class="ms-2">Bahnhofstraße 10, Tegernsee,
+                  Germany</span>
+              </li>
+              <li class="mb-3">
+                <span class="fa-li"><i class="fas fa-envelope"></i></span><span
+                  class="ms-2">contact@mtbtravel.com</span>
+              </li>
+              <li class="mb-3">
+                <span class="fa-li"><i class="fas fa-phone"></i></span><span class="ms-2">+49 162939920</span>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-4">Opening hours</h5>
+
+            <table class="table text-center text-white">
+              <tbody class="fw-normal">
+                <tr>
+                  <td>Mon - Fri:</td>
+                  <td>9am - 15pm</td>
+                </tr>
+                <tr>
+                  <td>Fri - Sat:</td>
+                  <td>8am - 16pm</td>
+                </tr>
+                <tr>
+                  <td>Sunday:</td>
+                  <td>8am - 14pm</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2022 Copyright:
+        <a class="text-white" href="https://google.com/">mtbtravel.com</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+  <!-- <div id="wrapper">
     <header>
       <img src="../assets/img/header1.png" alt="Foto de bicis en montaña" />
       <nav class="nav_top">
@@ -65,7 +234,7 @@
         </span>
       </div>
     </footer>
-  </div>
+  </div> -->
 </body>
 
 </html>

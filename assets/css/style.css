@@ -7,12 +7,12 @@
   font-size: 1.7rem;
 }
 
-.bg-dark {
-  background-color: #171717 !important;
+.bg-dark-leo {
+  background-color: #171717;
 }
 
-.bg-light {
-  background-color: #ffffff !important;
+.bg-light-leo {
+  background-color: #ffffff;
 }
 
 .mtb-header {
@@ -20,6 +20,38 @@
   height: auto;
   margin: auto;
   position: relative;
+}
+
+/* .img_buttons-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 40px;
+}
+
+.img_buttons-container {
+  position: relative;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+} */
+
+.img_buttons {
+  max-width: 260px;
+  height: auto;
+}
+
+.img_text {
+  position: absolute;
+  top: 40%;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  text-decoration: none;
+}
+
+.nav-item {
+margin: 0 2.5rem;
 }
 
 .mtb-icon {
@@ -57,7 +89,8 @@
   font-family: "Quicksand";
   font-weight: 200;
   font-size: 1.5rem;
-  margin-top: 10px;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
 }
 
 .img-bici-enduro {
@@ -121,7 +154,8 @@
   }
 
   .why {
-    margin-top: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
   }
 
   .our-bikes {
@@ -201,4 +235,21 @@
 
 .btn {
   font-weight: bold;
+}
+
+.about-us_title {
+  color: #000000;
+}
+
+.card-body_about {
+  color: #000000; 
+  font-family: Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 1rem;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.footer {
+  margin-top: 2rem;
 }
