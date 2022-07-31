@@ -22,19 +22,6 @@
   position: relative;
 }
 
-/* .img_buttons-section {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  margin-top: 40px;
-}
-
-.img_buttons-container {
-  position: relative;
-  display: grid;
-  justify-content: center;
-  justify-items: center;
-} */
-
 .img_buttons {
   max-width: 260px;
   height: auto;
@@ -176,15 +163,6 @@
   .img-bici-down {
     height: auto;
     width: 66%;
-  }
-
-  .card {
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: flex-end;
-    align-items: center;
-    margin: 3rem;
   }
 
   .card-img-top {
